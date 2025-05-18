@@ -1,5 +1,8 @@
+package controllers;
+
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
+import models.User;
 
 import static io.restassured.RestAssured.given;
 import static io.restassured.http.ContentType.JSON;

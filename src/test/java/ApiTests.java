@@ -1,4 +1,7 @@
+import controllers.UserController;
 import io.restassured.response.Response;
+import models.AddUserResponse;
+import models.User;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
